@@ -6,6 +6,13 @@ Previo a iniciar el desarrollo de software para web usando el frameword de NodeJ
 practicas de repase en JavaScrip puro , con el objetivo de confirmar los conocimientos 
 basicos de logica de progrtamacion .
 
+## Historial de Practicas
+
+|No.|Descripcion|Estatus|
+|---|---|---|
+|1.|Metodologia de Evaluacion | Activa| 
+|2.| Ingiticializacion del Proyecto de Fundamentos JS| Activa|
+
 
 ### Autor
 Yazmin Gutierrez Hernandez 
