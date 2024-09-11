@@ -3,7 +3,7 @@ Proyecto de clase para la Unidad1 de la asignatura Aplicaciones Web Orientadas  
 
 ## Descripcion
 Previo a iniciar el desarrollo de software para web usando el frameword de NodeJs , realizaremos un par de 
-practicas de repase en JavaScrip puro , con el objetivo de confirmar los conocimientos 
+practicas de repase en JavaScrip puro , con el objetivo de confirmar los cimientos 
 basicos de logica de progrtamacion .
 
 ## Historial de Practicas
