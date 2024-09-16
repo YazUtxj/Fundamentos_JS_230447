@@ -9,7 +9,7 @@ var miApellido ;
 var miEdad =19 ;
 // el objeto de consola nos permite enviar datos a la terminal y poder visitar
 // el valor de una variable   o  resultado de una funcion o metodo
-miApellido = "Gutierrez Hernandez"
+miApellido = "Gutiergit rez Hernandez"
 console.log("Ambas variablers fueron inicializadas" ,miNombre,miApellido);
 
 
@@ -40,4 +40,5 @@ console.log("Genial , te voy conociendo mejor , ahora se que tu naciste el",miFe
 console.log( `creo que es ${miColorFavorito} , le atine`)// la manera de mezclar textos fijos con 
 // el valor actual de las variables se les conoce como interpretacion y deben iniciar  y finalizar con un backing `` o tilde inversa
 console.log("mi  color favorito es ", typeof(miColorFavorito))
-console.log("mi fecha de nacimiento es ", typeof(miFechaNacimiento))git add .add
+console.log("mi fecha de nacimiento es ", typeof(miFechaNacimiento))
+//Se actuaslizaran cambiso en la rama it add
