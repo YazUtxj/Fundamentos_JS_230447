@@ -1,6 +1,6 @@
 // strings o cadenas de texto
-// const alumno = "juan";
-// let producto ="monitor 20 pulgadas";
+// const alumno = "Yazmin Gutierrez Hernandez";
+// let producto ="monitor 20 pulgadas\";
 // const numero ="30";
 // const nmero2 =30;
 // console.log(typeof numero)

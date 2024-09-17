@@ -8,11 +8,13 @@ basicos de logica de progrtamacion .
 
 ## Historial de Practicas
 
-|No.|Descripcion|Estatus|
+|No.|Descripcion|Potenciador|Estatus|
 |---|---|---|
-|1.|Metodologia de Evaluacion | Activa| 
-|2.| Ingiticializacion del Proyecto de Fundamentos JS| Activa|
-
+|1.|Metodologia de Evaluacion |1|Finalizada| 
+|2.| Ingiticializacion del Proyecto de Fundamentos JS|5| Finalizada|
+|3.| Declaracion de Variables(Undefined/Boolean /Numer)|10| Activa|
+|4.| Declaracion de Variables(String/BigInt/Null/Symbol/Function)|10| Activa|
+|5.| Inicializacion del Proyecto de Fundamentos JS| Activa|
 
 ### Autor
 Yazmin Gutierrez Hernandez 
