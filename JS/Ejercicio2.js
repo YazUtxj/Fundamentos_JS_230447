@@ -63,27 +63,131 @@ console.log(`o  en su decto a minuscula : ${producto} => ${producto.to}`)
 
 //BigInt 8ENTEROS DE DIMESIONES Amplias -Generalmente utilizados en sistemas matematicso
 //fisicos oi especiales donde se requiere 
-const numeroGrande =1233444444
-const numeroGrande2=11332345454646466
-const numeroGrande3=1821823288384848844438
+const numeroGrande = 1233444444
+const numeroGrande2 = 11332345454646466
+const numeroGrande3 = 1821823288384848844438
 console.log(`el primer experimento de un numero grnade es : ${numeroGrande} , que si es 
-    soportando por Number y su tipo de dato es : ${typeof(numeroGrande)}`);
+    soportando por Number y su tipo de dato es : ${typeof (numeroGrande)}`);
+//para definir el tipo de dato de BigInt  debemos invocar la funcionBigInt o usar la letra 'n'  al final del numero en la asignacion de valor
+console.log(`declaracion  de valores numericos gran tamaño... `)
+//numeroGrande3 = BigInt(7875467672356345674655464122);
+numeroGrande4 = 8353484534585778575775n;
+console.log(`el primer experimento de un numerto grande ${numeroGrande2} que si es sopportado por NUMBER y su tipo de dato es:
+     ${typeof (numeroGrande2)}`);
+console.log(`el segundo expermiento  de un numero grande es : ${numeroGrande3} y su tipo de dato es :${typeof (numeroGrande3)} `)
 
+//hay que considerar que los tipos de datos declarados como BigInt no son operables con los de tipo number
 
+let numero = 238;
+//si intentas  realizar una operacion matematica entre estos dos tipos de datos  ,obtendremos un error critico en la operacion
 
+console.log(`el resultado de la operacion de :NumeroGrande4/numero es : ${numeroGrande4 / BigInt(numero)}`);
 
+// 6.SYMBOL
+console.warn(`--tIPO DE DATO -Symbol (Simbolo a forzar la )`)
+const numero1 = 2;
+const numero2 = 2.0;
+const numero3 = "2";
+const numero4 = "2.0";
+const numero5 = Symbol(2);
+const numero6 = Symbol(2.0);
+const numero7 = Symbol("2");
+const numero8 = Symbol("2.0");
+const numero9 = Symbol(2);
+//Prueba de operacion 1 ()
+console.log(`Prueba de compracion 1 `)
+if (numero1 == numero2) {
+    console.log(`SE HA COMPARADO LOS VALORES numero1 Y numero2 ,CONFIRMANDO QUE TIENEN EL MISMO VALOR:`)
+} else {
+    console.log(`se han comparado los valores de numero1 y numero2 , detectando que NO tienen el mismo valor`)
+}
+//Prueba de operacion 2 ()
+console.log(`Prueba de compracion 2 `)
+if (numero1 == numero2) {
+    console.log(`SE HA COMPARADO LOS VALORES numero1 Y numero2 ,CONFIRMANDO QUE TIENEN EL MISMO VALOR:`)
+} else {
+    console.log(`se han comparado los valores de numero1 y numero2 , detectando que NO tienen el mismo valor`)
+}
+//Prueba de operacion 3
+console.log(`Prueba de compracion 3 ¿es 2  estrictamente  `)
+if (numero1 === numero2) {
+    console.log(`SE HA COMPARADO LOS VALORES numero1 Y numero2 ,CONFIRMANDO QUE TIENEN EL MISMO VALOR:`)
+} else {
+    console.log(`se han comparado los valores de numero1 y numero2 , detectando que NO tienen el mismo valor`)
+}
+//Prueba de operacion 4
+console.log(`Prueba de compracion 4 ¿es 2  estrictamente = \"2.0"\"2"  `);
+if (numero1 === numero4) {
+    console.log(`SE HA COMPARADO LOS VALORES numero1 Y numero2 ,CONFIRMANDO QUE TIENEN EL MISMO VALOR:`)
+} else {
+    console.log(`se han comparado los valores de numero1 y numero2 , detectando que NO tienen el mismo valor`)
+}
 
-
-
-//SYMBOL
-const primerSymbol = Symbol(39);
-const segundoSymbol = Symbol(39);
-
-// console.log(primerSymbol == segundoSymbol);
-// console.log(primerSymbol.valueOf());
-// console.log(segundoSymbol.valueOf());
-
+//Prueba de operacion 5
+console.log(`Prueba de compracion 5 ¿es 2  estrictamente = \"2.0"\"2" `);
+if (numero1 === numero4) {
+    console.log(`SE HA COMPARADO LOS VALORES numero1 Y numero2 ,CONFIRMANDO QUE TIENEN EL MISMO VALOR:`)
+} else {
+    console.log(`se han comparado los valores de numero1 y numero4 , detectando que NO tienen el mismo valor`)
+}
+//Prueba de operacion 6
+console.log(`Prueba de compracion 6 ¿es 2  estrictamente = \"2.0"\"2"  `);
+if (numero2 == numero4) {
+    console.log(`SE HA COMPARADO LOS VALORES numero1 Y numero2 ,CONFIRMANDO QUE TIENEN EL MISMO VALOR:`)
+} else {
+    console.log(`se han comparado los valores de numero1 y numero4 , detectando que NO tienen el mismo valor`)
+}
+//Prueba de operacion 7
+console.log(`Prueba de compracion 7 ¿es 2  estrictamente = \"2.0"\"2"  `);
+if (numero1 == numero5) {
+    console.log(`SE HA COMPARADO LOS VALORES numero1 Y numero5 ,CONFIRMANDO QUE TIENEN EL MISMO VALOR:`)
+} else {
+    console.log(`se han comparado los valores de numero1 y numero4 , detectando que NO tienen el mismo valor`)
+}
+//Prueba de operacion 8
+console.log(`Prueba de compracion 8 ¿es 2  Symbol(2) = Symbol("2")  `);
+if (numero1 == numero9) {
+    console.log(`SE HA COMPARADO LOS VALORES numero1 Y numero5 ,CONFIRMANDO QUE TIENEN EL MISMO VALOR:`)
+} else {
+    console.log(`se han comparado los valores de numero1 y numero4 , detectando que NO tienen el mismo valor`)
+}
+// un solo = es asignacion
+// doble  == es igualdad de valo
+// triple === es una igualdad estrica  
 
 //NULL
-// const  descuento =null;
-// console.log(typeof descuento);
+console.warn(`---tipo de Dato -NULL (Nulop o vacio)`);
+//el tipo de dato nulo se asigna cuando el sistema o el 
+let nombreUsuario = null;
+let passUsuario = null;
+let generoUsuario = null;
+let estatusRelacionSentimental = null;
+let fecha_UltimoPost = undefined;
+//supongamos que estamos programando una red social , en la parte de la 
+//informacion se publicara el perfil del usuario
+
+//si el usuario no ha iniciado sesion en el dispositivo movil o en la aplicacion web , puede explorar
+// contenido de acceso publico y no   informacion para mosntrar 
+
+//en la NU(Historia de Usuario) , que el usuario 
+
+//Supongamos que el usuario YazminG , con correo electronico yazmingutierrez411@gmail.com
+//con datos ingresa con su contraseña pass123
+
+nombreUsuario = "Yazmin Gutierrez";
+passUsuario = "pass123";
+
+//en este momento de ejecucion de sistema no sabe su genero , ni el estado de relacion sentimental
+
+console.log(`El usuari : ${nombreUsuario} esta intentando logearse con su contraseña : ${passUsuario}`);
+
+//lo que prosigue es que el sistema cotejara
+//dado que Yzmin es del genero femenino  , y denota que su estatus de relacion no ha sido captuadop o lo mantiene privado esto genera la actualizacion de los variables
+generoUsuario = "F";
+estatusRelacionSentimental = null;
+console.log(`El usuari : ${nombreUsuario} se ha logueado exitosamente  , al tener  acceso a su informacion de perfil 
+    podemos deducir que es del genero ${generoUsuario} y que su estatus de relacion es : ${estatusRelacionSentimental} y su  ultima 
+    publicacion la realizo el: ${fecha_UltimoPost}`);
+
+
+// Comando para seguir escribiendo en otra linea ALT + Z
